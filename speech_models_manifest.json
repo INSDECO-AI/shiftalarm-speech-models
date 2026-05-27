@@ -1,32 +1,37 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-05-27T00:00:00Z",
+  "schema_version": 1,
+  "min_supported_app_version": 1,
+  "generated_at_millis": 0,
   "models": [
     {
       "id": "vosk-small-ru-0.22",
-      "languageCode": "ru",
-      "languageName": "Русский",
-      "engine": "vosk",
-      "modelVersion": "0.22",
-      "displayName": "Русский — базовая модель",
-      "fileName": "vosk-model-small-ru-0.22.zip",
-      "downloadUrl": "https://github.com/INSDECO-AI/shiftalarm-speech-models/releases/download/speech-models-v1/vosk-model-small-ru-0.22.zip",
-      "sha256": "961D5FF98A17F4AA6DE69864D0AA71FA5BAC682301D2B5D17A3F24C5C99A46D4",
-      "sizeBytes": 46236750,
-      "recommended": true
+      "engine": "VOSK",
+      "language_tag": "ru-RU",
+      "display_name": "Русский — базовая модель",
+      "version": 1,
+      "size_bytes": 46236750,
+      "archive_url": "https://github.com/INSDECO-AI/shiftalarm-speech-models/releases/download/speech-models-v1/vosk-model-small-ru-0.22.zip",
+      "sha256": "961d5ff98a17f4aa6de69864d0aa71fa5bac682301d2b5d17a3f24c5c99a46d4",
+      "archive_file_name": "vosk-model-small-ru-0.22.zip",
+      "root_directory_name": "vosk-model-small-ru-0.22",
+      "min_app_version": 1,
+      "recommended": true,
+      "enabled": true
     },
     {
       "id": "vosk-small-en-us-0.15",
-      "languageCode": "en",
-      "languageName": "English",
-      "engine": "vosk",
-      "modelVersion": "0.15",
-      "displayName": "English — small model",
-      "fileName": "vosk-model-small-en-us-0.15.zip",
-      "downloadUrl": "https://github.com/INSDECO-AI/shiftalarm-speech-models/releases/download/speech-models-v1/vosk-model-small-en-us-0.15.zip",
-      "sha256": "30F26242C4EB449F948E42CB302DD7A686CB29A3423A8367F99FF41780942498",
-      "sizeBytes": 41205931,
-      "recommended": true
+      "engine": "VOSK",
+      "language_tag": "en-US",
+      "display_name": "English — small model",
+      "version": 1,
+      "size_bytes": 41205931,
+      "archive_url": "https://github.com/INSDECO-AI/shiftalarm-speech-models/releases/download/speech-models-v1/vosk-model-small-en-us-0.15.zip",
+      "sha256": "30f26242c4eb449f948e42cb302dd7a686cb29a3423a8367f99ff41780942498",
+      "archive_file_name": "vosk-model-small-en-us-0.15.zip",
+      "root_directory_name": "vosk-model-small-en-us-0.15",
+      "min_app_version": 1,
+      "recommended": true,
+      "enabled": true
     }
   ]
 }
