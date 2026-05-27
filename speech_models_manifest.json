@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "min_supported_app_version": 1,
+  "generated_at_millis": 0,
+  "models": [
+    {
+      "id": "vosk-small-ru-0.22",
+      "engine": "VOSK",
+      "language_tag": "ru-RU",
+      "display_name": "Русский",
+      "version": 1,
+      "size_bytes": 0,
+      "archive_url": "https://github.com/YOUR_ACCOUNT/shiftalarm-speech-models/releases/download/models-v1/vosk-model-small-ru-0.22.zip",
+      "sha256": "PASTE_RU_SHA256_HERE",
+      "archive_file_name": "vosk-model-small-ru-0.22.zip",
+      "root_directory_name": "vosk-model-small-ru-0.22",
+      "min_app_version": 1,
+      "recommended": true,
+      "enabled": true
+    },
+    {
+      "id": "vosk-small-en-us-0.15",
+      "engine": "VOSK",
+      "language_tag": "en-US",
+      "display_name": "English",
+      "version": 1,
+      "size_bytes": 0,
+      "archive_url": "https://github.com/YOUR_ACCOUNT/shiftalarm-speech-models/releases/download/models-v1/vosk-model-small-en-us-0.15.zip",
+      "sha256": "PASTE_EN_SHA256_HERE",
+      "archive_file_name": "vosk-model-small-en-us-0.15.zip",
+      "root_directory_name": "vosk-model-small-en-us-0.15",
+      "min_app_version": 1,
+      "recommended": true,
+      "enabled": true
+    }
+  ]
+}
